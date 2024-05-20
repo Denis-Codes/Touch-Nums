@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Touch Nums</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body onload="onInit()">
+    <h1>TOUCH NUMS!</h1>
+    <div class="block"> COMPLETED IN: <span class="timer">0.00</span></div>
+    <div class="level">
+        <h3>CHOOSE DIFFICULTY</h3>
+        <div class="btn-dif-container">
+            <button onclick="chooseLevelSize(this)">EASY</button>
+            <button onclick="chooseLevelSize(this)">MEDIUM</button>
+            <button onclick="chooseLevelSize(this)">NIGHTMARE</button>
+        </div>
+    </div>
+    <div class="restart-btn-container">
+        <button onclick="newGame()">RESTART</button>
+    </div>
+
+    <div class="board-container">
+        <table>
+            <tbody>
+
+            </tbody>
+        </table>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
